@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title>sign up</title>
+    <style>
+      body {
+        background-color: rgba(53, 68, 128, 0.837);
+        z-index: 1;
+        position: relative;
+      }
+      .marg {
+        position: fixed;
+        width: 600px;
+        /* margin: 100px; */
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="w3-display-topmiddle">Alem</p>
+    </div>
+    <div class="w3-container w3-border-blue w3-display-middle marg">
+      <h1>Sign up</h1>
+
+      <form action="">
+        <input
+          class="w3-input"
+          type="text"
+          name="name"
+          required
+          placeholder="Enter your name"
+        /><br /><br />
+        <input
+          class="w3-input"
+          type="email"
+          name="email"
+          placeholder="mail@example.com"
+        />
+        <br /><br />
+        <input
+          class="w3-input"
+          type="password"
+          name="password"
+          placeholder="password"
+        />
+        <br /><br />
+        <input
+          class="w3-input"
+          type="password"
+          name="confirmPass"
+          placeholder="Confirm password"
+        />
+        <br />
+        <br />
+        <input
+          class="w3-button w3-round-xlarge w3-teal w3-ripple"
+          type="submit"
+          value="Sign up"
+        />
+      </form>
+      <p>Already have an account? <a href="">Log in.</a></p>
+    </div>
+  </body>
+</html>
